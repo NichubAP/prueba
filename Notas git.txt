@@ -2,8 +2,18 @@
 
 Git es usado para controlar las versiones (o revisiones, ediciones) de las aplicaciones/proyectos. En el caso de un equipo que trabaja sobre un proyecto, cada uno puede trabajar en una rama y después fusionarla a la rama principal. 
 
-Al momento de crear repositorios para un proyecto es mejor crear repositorios separados para el FrontEnd y BackEnd
+Al momento de crear repositorios para un proyecto es mejor crear repositorios separados para el FrontEnd y BackEnd.
 
+Para comenzar, se usan los siguientes comandos:
+
+1. Inicialización
+- git init: inicializar el directorio que se usará como repositorio del proyecto
+2. Configuración del usuario
+- git config user.name <nombre de github>
+- git config user.email <email de github>
+- git config password <token de acceso de github>
+3. Configurar repositorio remoto
+- git remote add origin <URL del repositorio en github>
 
 
 
